@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+ <title>DNE - Carteirinha Digital</title>
+  <style>
+    body {
+      background-color: #0693e3;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .gradient-text {
+      font-size: 30px;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(90deg, #f03cad, #5639c7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+
+<body class="m-4">
+  <header class="flex justify-between items-center p-4">
+    <img src="logo-dne-branco.webp" alt="Logo Esquerda" class="h-12">
+    <img src="./logo-fesn.png" alt="Logo Direita" class="h-12">
+  </header>
+  <div class="p-4">
+    <div class="flex flex-row justify-between items-center gap-4">
+      <img src="./perfil.jpeg" alt="Foto" class="w-2/5 border-8 border-white rounded-[10px]">
+      <img src="./qr-code.png" alt="QR Code" class="w-2/5 border-[22px] border-white rounded-[10px]">
+    </div>
+    <div class="mt-12 flex flex-col gap-1 bg-white p-4 rounded-[10px]">
+      <div class="flex gap-2 mb-3">
+        <label class="font-bold">PETERSON PAULO M DE A DA SILVA</label>
+      </div>
+
+      <div class="flex gap-2">
+        <p><label class="font-bold mr-2">INS. DE ENSINO:</label>CENTRO UNIVERSITARIO BARÃO DE MAUÁ - CBM</p>
+      </div>
+      <div class="flex gap-2">
+        <p><label class="font-bold mr-2">CURSO:</label>CIÊNCIA DA COMPUTAÇÃO</p>
+      </div>
+      <div class="flex gap-2">
+        <p><label class="font-bold mr-2">CPF:</label>473.305.368-14</p>
+      </div>
+      <div class="flex gap-2">
+        <p><label class="font-bold mr-2">DATA DE NASC.</label>12/12/2000</p>
+      </div>
+      <div class="flex gap-2">
+        <p><label class="font-bold mr-2">VALIDADE:</label>31/01/2025</p>
+      </div>
+
+      <div class="flex justify-between items-end">
+        <div class="flex gap-1 mt-4 flex flex-col">
+          <label class="mr-2">CÓD. USO:</label>
+          <p>06.998/32</p>
+        </div>
+        <div class="gradient-text">2024</div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <p class="text-white mt-2 mb-5">
+        FEDERAÇÃO DOS ESTUDANTES NACIONAIS
+      </p>
+      <a href="certificado.html" class="flex gap-2 bg-[#2F578C] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <img src="./icon-certificado.png" class="w-5" alt="certificado" srcset="">
+        Certificado
+      </a>
+      
+    </div>
+  </div>
+</body>
+
+</html>
